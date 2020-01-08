@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>YYXX-Drop Down!</title>
+	<link rel ="stylesheet" type="text/css" href="imgStyles2.css">
+	<link rel ="stylesheet" type="text/css" href="main.css">
+	</head>
+
+
+
+<body onload="scrollBy((document.body['scrollWidth'] - 0) / 2, 0)">
+	<div id="pageDiv">
+	<img id="pageImage" alt="" src="Images/ChinaTownEntrance.png"></img>
+	
+		<div id="leftSide">
+			
+			<div  class ="Characters" id ="imageL1"></div>
+			<div  class ="Characters" id ="imageL2"></div>
+			<div  class ="Characters" id ="imageL3"></div>
+			<div  class ="Characters" id ="imageL4"></div>
+			<div  class ="Characters" id ="imageL5"></div>
+			<div  class ="Characters" id ="imageL6"></div>
+			<div  class ="Characters" id ="imageL7"></div>
+			
+		</div>
+		
+		<div id="outerMid">
+			<a href="Hompage.html"><div id="middle" class="overrideTitle" >
+			<a href ="Contact.html" id="contact">Contact Me</a>
+			<a href ="SignIn.html" id="signIn">Sign-in/out</a> <!-- Later assign this to a variable in Java to detect whether the user is signed in or not. -->
+			<a href="Homepage.html"><p id="txtTitle">有意學習 ~ You Yi Xue Xi ~ Intentional Learning</p></a>
+			<div id ="titleBanner">
+			
+					<h1 id="mainTitle"></h1>
+					
+			</div>
+			
+			<div  class="dropdown">
+				<button onclick="dropDown()" class="dropbtn" id="dDown1">Introductory</button>
+				<div class="dropdown-content" id="dDownCont1">
+				    <a href="Verify.html">Verify</a>
+				    <a href="DropDown.html">Drop Down!</a>
+				    <a href="Gallery.html">Gallery</a>
+				 </div>
+			</div>
+			
+			<div class="dropdown">
+				<button onclick="dropDown()" class="dropbtn" id="dDown2">Intermediary</button>
+				<div class="dropdown-content" id="dDownCont2">
+				    <a href="Forms.html">Forms!</a>
+				    <a href="Objects.html">Objects?</a>
+				    <a href="Debugging.html">Debugging!</a>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+				<button onclick="dropDown()" class="dropbtn" id="dDown3">Advanced</button>
+				<div class="dropdown-content" id="dDownCont3">
+				    <a href="FormGame.html">Form Game</a>
+				    <a href="LivingWebpage.html">Living Webpage</a>
+				    <a href="Timing.html">Timing</a>
+				</div>
+			</div>
+			
+			<div class="dropdown" id="dDown4">
+				 <button onclick="dropDown()" class="dropbtn">Offers</button>
+				 <div class="dropdown-content" id="dDownCont4">
+				    <a href="Student.html">Students</a>
+				    <a href="Professor.html">Professors</a>
+				 </div>
+			</div>
+				
+				<div id="content1" class="bodyContent">
+				
+					<h1>Drop Down!</h1>
+					<p>	In this  section We will be  looking at an interesting piece of  code that
+					if you implement  correctly can be  used in a variety of different  situations. 
+					drop-down lists can  be created and  used  quite well  without the  use of  such
+					things as  javascript the added  tool adds something to the user experience. 
+					Specifically  it will allow the  user to click a button listing the contents 
+					relating to the title of the button.
+					</p>
+				
+				</div>
+				<div id="content2" class="bodyContent">
+					<p>				</p>
+				</div>
+				<div id="content3" class="bodyContent">
+					<p>					</p>
+				</div>
+				<div id="content4" class="bodyContent">
+					<p>
+					  </p>
+				</div>
+				
+				<div id="footer" class="bodyContent">
+					<p><a id="previous" href="Verify.html">&#8592Previous Page</a>	<a id="next" href="Gallery.html">Next Page &#8594</a></p>
+				</div>
+
+				
+				
+				</div>
+			
+			<div id="rightSide">
+				
+				<div class ="Characters" id ="imageR1"></div>
+				<div class ="Characters" id ="imageR2"></div>
+				<div class ="Characters" id ="imageR3"></div>
+				<div class ="Characters" id ="imageR4"></div>
+				<div class ="Characters" id ="imageR5"></div>
+				<div class ="Characters" id ="imageR6"></div>
+				<div class ="Characters" id ="imageR7"></div>
+			</div>
+		</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
