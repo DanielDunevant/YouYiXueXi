@@ -1,2 +1,3 @@
 # YouYiXueXi
-This was a site I created as a school project. It's a site meant to teach Javascript. I hadn't  finished the site completely, but you can get the idea of where I wanted to go with it. 
+This was a site I created as a school project. It's a site meant to teach Javascript. I hadn't  finished the site completely, but you can get the idea of where I wanted to go with it. It doesn't have typical MVC structure. However it's not a static website either. In the future I may go back to this. 
+I am now mostly focussing on my resume website as that is live and there's a lot to do on it! Getting back to this project I had an great interest in Chinese culture and language and still do hence it's influance on how the site presents itself. It was a fun project to make. I hope people viewing this will find some use or at least some entertainment in my eclectic little site. Thanks for reading!
